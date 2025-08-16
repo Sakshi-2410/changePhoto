@@ -9,16 +9,16 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    let images = ["photo1.png", "photo2.png", "photo3.png", "photo4.png", "photo5.png"]; 
+    let photo = ["photo1.png", "photo2.png", "photo3.png", "photo4.png", "photo5.png"]; 
     let currentIndex = 0; 
 
     pbtn.addEventListener("click", function () {
        currentIndex++; 
-        if (currentIndex >= images.length) {
+        if (currentIndex >= photo.length) {
             currentIndex = 0;
             // currentIndex++; 
         }
-        imgElement.src = images[currentIndex]; 
+        imgElement.src =photo[currentIndex]; 
 
     });
 
