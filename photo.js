@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    let images = ["images/photo1.png", "images/photo2.png", "images/photo3.png", "images/photo4.png", "images/photo5.png"]; 
+    let images = ["photo1.png", "photo2.png", "photo3.png", "photo4.png", "photo5.png"]; 
     let currentIndex = 0; 
 
     pbtn.addEventListener("click", function () {
